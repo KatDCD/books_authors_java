@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+
+@font-face {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Concert One', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Concert+One&display=swap');
+}
+
+/* FONTS */
+.alegreya-sans-sc-regular {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.alegreya-sans-sc-bold {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.concert-one-regular {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* BODY */
+body {
+    background-image: url('/img/background.jpg');
+    background-repeat: repeat;
+    background-position: fixed;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #cb85a9;
+    box-shadow: 0 10px 8px #00000057;
+
+}
+
+.navbar-brand, .nav-link, .navbar-nav a {
+    font-family: "Alegreya Sans SC", sans-serif;
+    color: #ffffff;
+}
+
+
+/* MAIN */
+.container {
+    position: relative;
+    background-color: #fae3e3;
+    box-shadow: 0 10px 8px #00000057;
+    width: max-content;
+}
+
+h1, h5 {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #72615f;
+}
+
+h6, p {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-style: normal;
+    color: #72615f;
+}
+
+label {
+    color: #72615f;
+}
+
+.btn {
+    background-color: #cb85a9;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #92607e;
+    color: #ffffff;
+}
+
+/* CARDS */
+.card {
+    width: max-content;
+}
